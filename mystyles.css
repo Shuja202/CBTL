@@ -1,0 +1,21 @@
+/* style.css */
+
+/*
+   This file is linked to your index.html.
+   You can add any custom CSS here that you prefer not to manage with Tailwind utility classes.
+   For example:
+*/
+
+/* body {
+    background-color: #f0f2f5;
+} */
+
+/* .profile-card {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+/* You can define custom classes here and apply them in your HTML */
+.custom-shadow {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Page</title>
+    <!-- Tailwind CSS CDN for easy styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles (can be minimal as Tailwind handles most) */
+        body {
+            font-family: "Inter", sans-serif;
+            background-color: #f0f2f5; /* Light gray background */
+        }
+        /* You can add more custom CSS here if needed, but Tailwind is preferred */
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4">
+    
+    
+    
+    <!-- Main container for the profile card -->
+    <div class="bg-white p-8 rounded-xl shadow-lg max-w-md w-full text-center">
+        <!-- Profile Image Section -->
+        <div class="mb-6">
+            <img
+                src="another profile.png"
+                alt="Your Profile Picture"
+                class="w-36 h-36 rounded-full mx-auto object-cover border-4 border-blue-500 shadow-md"
+                onerror="this.onerror=null;this.src='https://placehold.co/150x150/cccccc/000000?text=Image+Error';"
+            >
+        </div>
+
+        <!-- Name Section -->
+        <h1 class="text-4xl font-extrabold text-gray-800 mb-3">
+            Shuja ul Hasan
+        </h1>
+
+        <!-- Bio Section -->
+        <p class="text-lg text-gray-600 leading-relaxed">
+            Hello! I'm an enthusiastic individual passionate about technology and creative problem-solving. I enjoy learning new things, exploring innovative ideas, and connecting with like-minded people. In my free time, you can find me reading, hiking, or working on personal projects.
+        </p>
+
+        <p class="text-lg text-gray-600 leading-relaxed">
+            this is my new paragraph
+        </p>
+
+        <!-- Optional: Add social links or a contact button here -->
+        <div class="mt-6 flex justify-center space-x-4">
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg transition duration-300 ease-in-out shadow-md">
+                Contact Me
+            </a>
+            <a href="#" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-6 rounded-lg transition duration-300 ease-in-out shadow-md">
+                Learn More
+            </a>
+        </div>
+    </div>
+
+    <!-- Contact Info Section (initially hidden) -->
+    <div id="contactInfo" class="bg-white p-8 rounded-xl shadow-lg max-w-md w-full text-center mt-8">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Contact Information</h2>
+        <p class="text-md text-gray-700 mb-2">
+            <strong>Phone:</strong> +92 123 4567890
+        </p>
+        <p class="text-md text-gray-700 mb-2">
+            <strong>Email:</strong> shuja.ul.hasan@example.com
+        </p>
+        <p class="text-md text-gray-700">
+            <strong>Address:</strong> 123 Main Street, Anytown, Pakistan
+        </p>
+    </div>
+
+
+    <!-- Link to your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
