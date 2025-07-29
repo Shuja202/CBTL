@@ -74,42 +74,6 @@ main {
     color: #2c3e50;
     margin-bottom: 1rem;
 }
-
-/* Portfolio Page - Profile Card */
-.profile-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(135deg, #ecf0f1, #bdc3c7); /* Light gradient background */
-    text-align: center;
-}
-
-.profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; /* Ensures the image covers the area without distortion */
-    border: 5px solid #3498db; /* Blue border around the image */
-    margin-bottom: 1.5rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.profile-card h2 {
-    color: #2c3e50;
-    margin-bottom: 0.5rem;
-    font-size: 2em;
-}
-
-.profile-card .bio {
-    color: #555;
-    font-size: 1.1em;
-    max-width: 500px;
-    margin-top: 0;
-}
-
 /* Tic Tac Toe Game Styling */
 #tictactoe-page {
     display: flex;

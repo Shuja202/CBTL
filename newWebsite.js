@@ -9,35 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let board = ['', '', '', '', '', '', '', '', ''];
     let gameActive = true;
 
-    // Function to show a specific page
-    const showPage = (pageId) => {
-        pages.forEach(page => {
-            page.classList.remove('active');
-        });
-        document.getElementById(pageId).classList.add('active');
-
-        // Update active class for navigation
-        navLinks.forEach(link => {
-            if (link.dataset.page + '-page' === pageId) {
-                link.classList.add('active-nav');
-            } else {
-                link.classList.remove('active-nav');
-            }
-        });
-    };
-
-    // Initial page load (show Home page)
-    showPage('home-page');
-
-    // Navigation functionality
-    navLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault();
-            const pageId = e.target.dataset.page + '-page';
-            showPage(pageId);
-        });
-    });
-
     // Tic Tac Toe Game Logic
     const winningConditions = [
         [0, 1, 2],
